@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio — Luccas Dutra</title>
+  <meta name="description" content="Portfólio do Luccas Dutra — HTML, CSS e JavaScript">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Luccas <span>Dutra</span></div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button id="themeToggle" aria-label="Alternar tema">🌓</button>
+    </div>
+  </header>
+
+  <!-- Herói -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <img src="assets/Foto-Luccas.jpeg" alt="Foto de perfil de Luccas" class="avatar"/>
+      <div class="hero-text">
+        <h1>Desenvolvedor Front‑End <span class="accent">iniciante</span></h1>
+        <p>Sou <strong>Luccas Dutra</strong>, 20 anos. Estudo <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> há 2 meses de forma autodidata e já criei projetos próprios. Busco oportunidades para evoluir com projetos práticos.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn ghost" href="#contato">Fale comigo</a>
+        </div>
+      </div>
+    </div>
+    <!-- fundo divertido com símbolos de código -->
+    <div class="code-bg"></div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container narrow">
+      <h2>Sobre Mim</h2>
+      <p>Sou desenvolvedor web em início de carreira, com foco em construir interfaces bonitas, acessíveis e responsivas. Tenho base sólida em <strong>HTML5</strong> e <strong>CSS3</strong> e estou avançando em <strong>JavaScript</strong>. Gosto de aprender construindo: componentes, layouts e pequenas aplicações.</p>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="section">
+    <div class="container">
+      <h2 class="habilidades-enunciado">Habilidades</h2>
+      <ul class="skills">
+        <li><span class="badge">HTML5</span></li>
+        <li><span class="badge">CSS3</span></li>
+        <li><span class="badge">JavaScript</span></li>
+        <li><span class="badge">Git/GitHub</span></li>
+        <li><span class="badge ghost">Responsividade</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2 class="projetos-enunciado">Meus Projetos</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/site-construcao.png" alt="Miniatura de landing page" loading="lazy">
+          <div class="card-body">
+            <h3>Projeto em Construção</h3>
+            <p>In Construction...</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">Ver Online</a>
+              <a href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/site-construcao.png" alt="Miniatura To‑Do List" loading="lazy">
+          <div class="card-body">
+            <h3>Projeto em Construção</h3>
+            <p>In Construction...</p>
+            <div class="links">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container narrow">
+      <h2 class="contato-enunciado">Contato</h2>
+      <p class="contact-line">📧 <a href="mailto:luccas.ferreyro@gmail.com">luccas.ferreyro@gmail.com</a></p>
+      <div class="social">
+        <a aria-label="GitHub" href="https://github.com/LuccasDutraF" target="_blank" rel="noopener">GitHub</a>
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/luccas-dutra/" target="_blank" rel="noopener">LinkedIn</a>
+        <a aria-label="Instagram" href="https://www.instagram.com/luccas_dutra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© 2025 Luccas Dutra — Desenvolvedor Front‑End</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

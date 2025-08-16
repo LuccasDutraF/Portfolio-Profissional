@@ -60,7 +60,6 @@ h2{ font-size: clamp(1.4rem, 0.8rem + 1.6vw, 2rem); margin-bottom: 18px; }
 .habilidades-enunciado{text-align: center;}
 .skills{ list-style:none; display:flex; flex-wrap:wrap; gap:12px; justify-content: center; }
 .badge{ display:inline-block; padding:10px 14px; border-radius:10px; background: var(--panel); box-shadow: var(--shadow); }
-.badge.ghost{ background: transparent; border:1px solid rgba(255,255,255,.14); }
 
 /* Projects */
 .projetos-enunciado{text-align: center;}
